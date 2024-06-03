@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codely</title>
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+    <!-- Plus Jakarta Sans font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Slick slider link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- style link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="image/codely-favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- header section start -->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container ps-3 pe-3 ps-md-2 pe-md-2">
+                <a class="navbar-brand" href="#"><img src="image/codely-logo.png" alt="codely-logo"
+                        style="width: 100%;"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonial</a>
+                        </li>
+                        <!-- Dropdown list -->
+                        <li class="nav-item position-relative dropdown">
+                            <a class="nav-link dropbtn" href="#">Services <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-content position-absolute">
+                                <ul>
+                                    <li class="p-2">Service List 1</li>
+                                    <li class="p-2">Service List 1</li>
+                                    <li class="p-2">Service Details</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item position-relative dropdown">
+                            <a class="nav-link dropbtn" href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-content position-absolute">
+                                <ul>
+                                    <li class="p-2">Blog List</li>
+                                    <li class="p-2">Single Blog</li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item position-relative dropdown">
+                            <a class="nav-link dropbtn" href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown-content position-absolute">
+                                <ul>
+                                    <li class="p-2">Pricing</li>
+                                    <li class="p-2">Sign In</li>
+                                    <li class="p-2">Sign Up</li>
+                                    <li class="p-2">Error 404</li>
+                                    <li class="p-2">Faq</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="nav-button ms-auto text-center position-relative">
+                        <a href="#">TRY IT FREE <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+    <!-- header section end -->
+
+    <!-- home section start -->
+    <div class="home-section text-center p-2 p-md-4 position-relative">
+        <div class="home-bg-icon">
+            <div class="polygon"><img src="image/polygon.svg" alt="polygon-img"></div>
+            <div class="plus"><img src="image/plus.svg" alt="round-img"></div>
+            <div class="round"><img src="image/round.svg" alt="round-img"></div>
+        </div>
+        <div class="container pb-5 pt-3 pt-md-2 pt-lg-2 pb-md-2 pb-lg-2 p-0 reveal">
+            <div class="home-detail pt-5">
+                <h5 class="pt-3 pt-md-5">Powerful, easier and faster</h5>
+                <h1>Grow your software <br> faster & easier with Dashbord</h1>
+                <p class="m-3">The World's simplest and fast platform that brings everything together</p>
+                <form action="#" class="d-flex justify-content-center pb-3">
+                    <div class="searchbar text-start position-relative">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="search" placeholder="Enter your email">
+                        <div class="common-button text-center">
+                            <a href="#" class="text-center">TRY IT FREE <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </form>
+                <span>Already using software? <a href="#"><ins>Signin</ins></a></span>
+            </div>
+            <div class="home-banner pt-5 position-relative">
+                <img class="home-banner-img" src="image/home-banner-img.png" alt="home-banner-img" style="width: 80%;">
+                <div class="sub-image">
+                    <img src="image/home-sub-image-1.png" alt="home-sub-image">
+                    <img src="image/home-sub-image-2.png" alt="home-sub-image">
+                    <img src="image/home-sub-image-3.png" alt="home-sub-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- home section end -->
+
+    <!-- features section start -->
+    <div class="features-section text-center reveal p-2 p-md-0">
+        <h1 class="common-heading pt-3">Unique features</h1>
+        <P class="pb-3 common-paragraph">Lorem Ipsum is simply dummy text of the printing and typese tting indus <br>
+            orem Ipsum has beenthe standard dummy text ever since</P>
+        <div class="container">
+            <div class="row d-flex features-row align-items-centers">
+                <div class="col-md-4 features-detail gap-3 pb-3">
+                    <div class="card text-center p-2 p-md-5">
+                        <img src="image/features_icon_01.svg" alt="features-img" style="width: 40%;">
+                        <h5 class="pt-2">Highly customizable</h5>
+                        <p class="common-paragraph">Lorem Ipsum is simply dummy text ofthe printing and type
+                            setting indus ideas orem Ipsum has beenthe.</p>
+                        <a href="#">DISCOVER MORE<i class="fa-solid fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 features-detail gap-3 pb-3">
+                    <div class="card text-center p-2 p-md-5">
+                        <img src="image/features_icon_02.svg" alt="features-img" style="width: 40%;">
+                        <h5 class="pt-2">Pixel perfect design</h5>
+                        <p class="common-paragraph">Lorem Ipsum is simply dummy text ofthe printing and type
+                            setting indus ideas orem Ipsum has beenthe.</p>
+                        <a href="#">DISCOVER MORE<i class="fa-solid fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 features-detail gap-3 pb-3">
+                    <div class="card text-center p-2 p-md-5">
+                        <img src="image/features_icon_03.svg" alt="features-img" style="width: 40%;">
+                        <h5 class="pt-2">Lifetime free updates</h5>
+                        <p class="common-paragraph">Lorem Ipsum is simply dummy text ofthe printing and type
+                            setting indus ideas orem Ipsum has beenthe.</p>
+                        <a href="#">DISCOVER MORE<i class="fa-solid fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- features section end -->
+
+    <!-- analyze section start -->
+    <div class="analyze-section p-2 p-md-5 reveal-opacity">
+        <div class="container">
+            <div class="row d-flex analyze-row">
+                <div class="col-md-6 analyze-detail">
+                    <img src="image/analyze_Icon.svg" alt="analyze_Icon">
+                    <h1 class="common-heading pt-3">Analyze your data with powerful tool</h1>
+                    <p class="common-paragraph">Lorem Ipsum is simply dummy text of the printing and types etting
+                        industry lorem Ipsum has been
+                        the industrys standard dummy
+                        text ever since the when an unknown printer took a galley of type and.</p>
+                    <div class="reveal-top">
+                        <div class="analyze-sub-detail d-flex ">
+                            <i class="fa-solid fa-circle-check m-1"></i>
+                            <div class="analyze-sub-info ms-2 ">
+                                <h5>Carefully designed</h5>
+                                <p class="common-paragraph">Lorem Ipsum is simply dummy text of the printing and <br>
+                                    typ
+                                    esetting industry lorem
+                                    Ipsum has.</p>
+                            </div>
+                        </div>
+                        <div class="analyze-sub-detail d-flex">
+                            <i class="fa-solid fa-circle-check m-1"></i>
+                            <div class="analyze-sub-info ms-2">
+                                <h5>Seamless Sync</h5>
+                                <p class="common-paragraph">Simply dummy text of the printing and typesetting <br>
+                                    inustry
+                                    lorem Ipsum has Lorem
+                                    dollar summit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-6 analyze-image d-flex align-items-center">
+                    <img src="image/analyze-data-03.png" alt="analyze-data-03" style="width: 100%;">
+                    <div class="sub-image">
+                        <img src="image/analyze-data-01.png" alt="analyze-data-01">
+                        <img src="image/analyze-data-02.png" alt="analyze-data-02">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- analyze section end -->
+
+    <!-- Collaborate section start -->
+    <div class="collaborate-section p-2 p-md-5 reveal-opacity">
+        <div class="container">
+            <div class="row d-flex collaborate-row">
+                <div class="col-md-6 collaborate-image d-flex align-items-center">
+                    <div class="sub-image">
+                        <img src="image/collaborate-img-01.png" alt="collaborate-image">
+                        <img src="image/collaborate-img-02.png" alt="collaborate-image">
+                        <img src="image/collaborate-icon_1.png" alt="collaborate-icon">
+                        <img src="image/collaborate-icon_2.png" alt="collaborate-icon">
+                    </div>
+                </div>
+                <div class="col-md-6 collaborate-detail ps-2 ps-md-5 position-relative">
+                    <img src="image/securely_svg.svg" alt="securely_svg">
+                    <h1 class="common-heading pt-3">Collaborate securely everything</h1>
+                    <p class="common-paragraph">Lorem Ipsum is simply dummy text of the printing and types etting
+                        industry lorem Ipsum has been
+                        the indu has been the
+                        industrys standard dummy text ever since the when an unknown printer took a galley of type and.
+                    </p>
+                    <div class="reveal-top">
+                        <div class="collaborate-sub-detail d-flex pb-2">
+                            <img src="image/syncfollowers_icon.svg" alt="contact_icon">
+                            <div class="collaborate-sub-info ms-2">
+                                <h5>Sync followers</h5>
+                                <p class="common-paragraph">Simply dummy text of the printing and typesetting <br>
+                                    inustry
+                                    lorem Ipsum has Lorem
+                                    dollar summit.</p>
+                            </div>
+                        </div>
+                        <div class="collaborate-sub-detail d-flex pb-5">
+                            <img src="image/global_icon.svg" alt="global_icon">
+                            <div class="collaborate-sub-info ms-2">
+                                <h5>Globally connected</h5>
+                                <p class="common-paragraph">Simply dummy text of the printing and typesetting <br>
+                                    inustry
+                                    lorem Ipsum has Lorem
+                                    dollar summit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="common-button text-center reveal-top">
+                        <a href="#" class="text-center">READ MORE <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Collaborate section end -->
+
+    <!-- communication section start -->
+    <div class="communication-section p-2 p-md-5 reveal-opacity">
+        <div class="container">
+            <div class="row d-flex communication-row">
+                <div class="col-md-6 communication-detail">
+                    <img src="image/comunication_icon.svg" alt="communication_icon">
+                    <h1 class="common-heading pt-3">Easy communication wherever you are live</h1>
+                    <p class="common-paragraph">Lorem Ipsum is simply dummy text of the printing and types etting
+                        industry lorem Ipsum has been
+                        the industrys standard dummy
+                        text ever since the when an unknown printer took a galley of type and.</p>
+                    <div class="reveal-top">
+                        <div class="communication-sub-detail d-flex">
+                            <i class="fa-solid fa-circle-check m-1"></i>
+                            <div class="communication-sub-info ms-2">
+                                <h5>Carefully designed</h5>
+                                <p class="common-paragraph">Lorem Ipsum is simply dummy text of the printing and <br>
+                                    typ
+                                    esetting industry lorem
+                                    Ipsum has.</p>
+                            </div>
+                        </div>
+                        <div class="communication-sub-detail d-flex">
+                            <i class="fa-solid fa-circle-check m-1"></i>
+                            <div class="communication-sub-info ms-2">
+                                <h5>Seamless Sync</h5>
+                                <p class="common-paragraph">Simply dummy text of the printing and typesetting <br>
+                                    inustry
+                                    lorem Ipsum has Lorem
+                                    dollar summit..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 communication-image d-flex align-items-center justify-content-center">
+                    <img src="image/cominication-data-01.png" alt="cominication-data-img">
+                    <div class="sub-image">
+                        <img src="image/cominication-data-02.png" alt="cominication-data-img">
+                        <img src="image/cominication-data-03.png" alt="cominication-data-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- communication section end -->
+
+    <!-- business section start -->
+    <div class="business-section text-center position-relative reveal-opacity">
+        <div class="bg_pattern">
+            <img src="image/business_bg.png" alt="business_bg" style="width: 100%;">
+        </div>
+        <div class="container">
+            <h1 class="common-heading pt-3 reveal-top">Powerful solution for your business</h1>
+            <P class="pb-3 reveal-top">Lorem Ipsum is simply dummy text of the printing and typese tting indus <br>
+                orem Ipsum has beenthe standard dummy text ever since.</P>
+            <ul class="d-flex justify-content-center reveal-top p-0">
+                <li><i class="fa-regular fa-circle-check"></i> Highly customizable</li>
+                <li><i class="fa-regular fa-circle-check"></i> Pixel perfect design</li>
+                <li><i class="fa-regular fa-circle-check"></i> Worldwide support</li>
+            </ul>
+            <div class="row counter-section d-flex reveal-top" id="counter">
+                <div class="col-6 col-sm-6 col-md-3">
+                    <p><span class="count" data-count="450">0</span>
+                        <span>+</span>
+                    </p>
+                    <p>Million of client logins <br> monthly</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <p><span class="count" data-count="120">0</span>
+                        <span>+</span>
+                    </p>
+                    <p>Languages and <br> countries</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <p><span class="count" data-count="135">0</span>
+                        <span>+</span>
+                    </p>
+                    <p>Percent yearly <br> turnover increase</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <p><span class="count" data-count="324">0</span>
+                        <span>+</span>
+                    </p>
+                    <p>Million active <br> accounts</p>
+                </div>
+            </div>
+
+            <div class="row image-gallery-section d-flex p-2 p-md-5">
+                <div class="col-sm-6 col-md-3 pt-sm-0 pt-2 pt-md-5 reveal-top-delay">
+                    <img class="mt-1 mt-md-5 pb-4" src="image/powerful-solution-01.png" alt="image">
+                    <img class="pb-4" src="image/powerful-solution-02.png" alt="image">
+                </div>
+                <div class="col-sm-6 col-md-3 reveal-top">
+                    <img class="mt-1 mt-md-5 pb-4" src="image/powerful-solution-03.png" alt="image">
+                    <img class="pb-4" src="image/powerful-solution-04.png" alt="image">
+                    <img class="pb-4" src="image/powerful-solution-05.png" alt="image">
+                </div>
+                <div class="col-sm-6 col-md-3 reveal-top">
+                    <img class="mt-1 mt-md-5 mt-sm-0 pb-4" src="image/powerful-solution-06.png" alt="image">
+                    <img class="pb-4" src="image/powerful-solution-07.png" alt="image">
+                </div>
+                <div class="col-sm-6 col-md-3 reveal-top-delay">
+                    <img class="mt-1 mt-md-5 mt-sm-0 pb-4" src="image/powerful-solution-08.png" alt="image">
+                    <img class="pb-4" src="image/powerful-solution-09.png" alt="image">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- business section end -->
+
+
+    <!-- platforms section start -->
+    <div class="platforms-section text-center position-relative">
+        <div class="container">
+            <h1 class="common-heading pt-3 reveal-top">Easy integration <br> with popular platforms</h1>
+            <P class="pb-3 common-paragraph reveal-top">Lorem Ipsum is simply dummy text of the printing and typese
+                tting indus
+                <br> orem Ipsum has
+                beenthe standard dummy.
+            </P>
+            <div class="row reveal-top">
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_01.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Mailchimp</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_02.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Google Drive</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_03.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Whatsapp</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_02.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Google Drive</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_04.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Mailchimp</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_05.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Dropbox</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row reveal-top">
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_06.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Skype</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_07.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Wordpress</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_08.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Smashing</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_09.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Firefox</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_10.png" alt="platform_img" style="width: 35%;">
+                        <h5 class="pt-3">Yahoo</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-2 pb-4">
+                    <div class="card p-3">
+                        <img src="image/platforms_11.png" alt="platform_img" style="width: 25%;">
+                        <h5 class="pt-3">Bing</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- platforms section end -->
+
+    <!-- customer section start -->
+    <div class="customer-section position-relative m-3 m-md-5 reveal-top">
+        <h1 class="common-heading pt-3 text-center">What our customer says</h1>
+        <P class="pb-3 text-center common-paragraph">Lorem Ipsum is simply dummy text of the printing and typese tting
+            indus <br>
+            orem Ipsum has beenthe standard dummy text ever since.</P>
+        <div class="customer-slick-slider reveal-opacity">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-5">
+                    <div class="customer-img">
+                        <img src="image/testimonial-01.png" alt="testimonial-img" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="customer-detail">
+                        <div class="customer-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="common-paragraph pt-2">Lorem Ipsum is simply dummy text of the print ing and
+                            typese tting us orem Ipsum has been lorem
+                            beenthe standar ddummy Lorem Ipsum is simply mmy text of the print ing and typese tting
+                            us orem Ipsum
+                            has lorem Ipsum has lorem beenthe standar ddummy.</p>
+                        <h4>Shayna John</h4>
+                        <span>Careative inc</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-md-5">
+                    <div class="customer-img">
+                        <img src="image/testimonial-02.png" alt="testimonial-img" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="customer-detail">
+                        <div class="customer-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="common-paragraph pt-2">Lorem Ipsum is simply dummy text of the print ing and
+                            typese tting us orem Ipsum has been lorem
+                            beenthe standar ddummy Lorem Ipsum is simply mmy text of the print ing and typese tting
+                            us orem Ipsum
+                            has lorem Ipsum has lorem beenthe standar ddummy.</p>
+                        <h4>Wilium Smith</h4>
+                        <span>Fish Kreativ</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center">
+                <div class="col-md-5">
+                    <div class="customer-img">
+                        <img src="image/testimonial-03.png" alt="testimonial-img" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="customer-detail">
+                        <div class="customer-rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="common-paragraph pt-2">Lorem Ipsum is simply dummy text of the print ing and
+                            typese tting us orem Ipsum has been lorem
+                            beenthe standar ddummy Lorem Ipsum is simply mmy text of the print ing and typese tting
+                            us orem Ipsum
+                            has lorem Ipsum has lorem beenthe standar ddummy.</p>
+                        <h4>John Doe</h4>
+                        <span>Digital People</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- customer section end -->
+
+    <!-- review section start -->
+    <div class="review-section d-flex justify-content-center p-2 reveal-top">
+        <div class="review-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <span class="pe-1">5.0 /5.0 -</span>
+        <a href="#">3689 Total User Reviews <i class="fa-solid fa-arrow-right ms-1"></i></a>
+
+    </div>
+    <!-- review section end -->
+
+    <!-- companies section start -->
+    <div class="companies-section position-relative">
+        <div class="container p-0">
+            <h1 class="common-heading pt-3 text-center reveal-top">Trusted by 150+ companies</h1>
+            <P class="pb-3 text-center common-paragraph reveal-top">Lorem Ipsum is simply dummy text of the printing and
+                typese
+                tting <br> indus orem Ipsum has beenthe standard dummy.</P>
+
+            <div class="companies-slider">
+                <div class="item">
+                    <img src="image/paypal.png" alt="paypal">
+                </div>
+                <div class="item">
+                    <img src="image/spoty.png" alt="spoty">
+                </div>
+                <div class="item">
+                    <img src="image/shopboat.png" alt="shopboat">
+                </div>
+                <div class="item">
+                    <img src="image/slack.png" alt="slack">
+                </div>
+                <div class="item">
+                    <img src="image/envato.png" alt="envato">
+                </div>
+                <div class="item">
+                    <img src="image/spoty.png" alt="spoty">
+                </div>
+            </div>
+        </div>
+        <!-- companies section end -->
+
+        <!-- plans section start -->
+        <div class="plans-section p-2 reveal-opacity">
+            <h1 class="common-heading pt-3 text-center reveal-top">Best plans, pay what you use</h1>
+            <P class="pb-4 text-center reveal-top">Lorem Ipsum is simply dummy text of the printing and typese tting
+                indus <br>
+                orem Ipsum has beenthe standard dummy text ever since</P>
+            <div class="container">
+                <div class="row d-flex plans-row align-items-center reveal-top">
+                    <div class="toggle d-flex pb-5 align-items-center justify-content-center">
+                        <span>Monthly</span>
+                        <input type="checkbox" id="btn">
+                        <label for="btn"><span></span></label>
+                        <span class="pe-2">Yearly</span>
+                        <span class="badge p-2">50% off</span>
+                    </div>
+                    <div class="col-md-4 plans-detail gap-3 pb-3">
+                        <div class="card">
+                            <img class="pt-2" src="image/plan-img-1.svg" alt="plan-img" style="width: 35%;">
+                            <h5 class="pt-2">Free Trial</h5>
+                            <span class="common-paragraph">For the basics</span>
+                            <div class="card-amount d-flex pt-4">
+                                <p>$0<span>/Month</span></p>
+                            </div>
+                            <ul class="card-detail p-0">
+                                <li><i class="fa-regular fa-circle-check"></i> 7 Days free trial</li>
+                                <li><i class="fa-regular fa-circle-check"></i> 2 platform of your choice</li>
+                                <li><i class="fa-regular fa-circle-check"></i> 10 GB Dedicated Hosting free</li>
+                                <li><i class="fa-regular fa-circle-xmark close"></i> Unlimited updates</li>
+                                <li><i class="fa-regular fa-circle-xmark close"></i> Live support</li>
+                            </ul>
+                            <div class="common-button text-center">
+                                <a href="#" class="text-center">READ MORE <i
+                                        class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 plans-detail gap-3 pb-3">
+                        <div class="card">
+                            <img class="pt-2" src="image/unlimited.png" alt="plan-img" style="width: 40%;">
+                            <h5 class="pt-2">Unlimited</h5>
+                            <span class="common-paragraph">For the professionals</span>
+                            <div class="card-amount d-flex pt-4">
+                                <p>$99<span>/Month</span></p>
+                            </div>
+                            <ul class="card-detail p-0">
+                                <li><i class="fa-regular fa-circle-check"></i> 7 Days free trial</li>
+                                <li><i class="fa-regular fa-circle-check"></i> 2 platform of your choice</li>
+                                <li><i class="fa-regular fa-circle-check"></i> 10 GB Dedicated Hosting free</li>
+                                <li><i class="fa-regular fa-circle-xmark"></i> Unlimited updates</li>
+                                <li><i class="fa-regular fa-circle-xmark"></i> Live support</li>
+                            </ul>
+                            <div class="common-button text-center active">
+                                <a href="#" class="text-center">READ MORE <i
+                                        class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 plans-detail gap-3 pb-3">
+                        <div class="card">
+                            <img class="pt-2" src="image/plan-img-3.svg" alt="plan-img" style="width: 40%;">
+                            <h5 class="pt-2">Premium</h5>
+                            <span class="common-paragraph">For small team</span>
+                            <div class="card-amount d-flex pt-4">
+                                <p>$55<span>/Month</span></p>
+                            </div>
+                            <ul class="card-detail p-0">
+                                <li><i class="fa-regular fa-circle-check"></i> 7 Days free trial</li>
+                                <li><i class="fa-regular fa-circle-check"></i> 2 platform of your choice</li>
+                                <li><i class="fa-regular fa-circle-check"></i> 10 GB Dedicated Hosting free</li>
+                                <li><i class="fa-regular fa-circle-xmark"></i> Unlimited updates</li>
+                                <li><i class="fa-regular fa-circle-xmark close"></i> Live support</li>
+                            </ul>
+                            <div class="common-button text-center">
+                                <a href="#" class="text-center">READ MORE <i
+                                        class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- plans section end -->
+
+        <!-- need section start -->
+        <div class="need-container reveal-opacity">
+            <div class="container">
+                <div class="need-section d-flex">
+                    <div class="col-12 col-md-8">
+                        <h1>Need support ? contact our team</h1>
+                        <div class="time-details">
+                            <p><i class="fa-regular fa-clock"></i> Mon - Fri: 9 am to 5 am</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <div class="need-button pt-2 pb-2">
+                            <a href="#"><i class="fa-solid fa-phone"></i> +1 123 456 7890</a>
+                        </div>
+                        <a href="#"><ins>Read The FAQ </ins></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- need section end -->
+
+        <!-- interface section start -->
+        <div class="interface-section position-relative p-2">
+            <h1 class="common-heading pt-3 text-center reveal-top">Interface overview</h1>
+            <P class="pb-3 text-center common-paragraph reveal-top">Lorem Ipsum is simply dummy text of the printing and
+                typese tting
+                indus <br> orem Ipsum has beenthe standard dummy text ever since.</P>
+
+                <div class="interface-slick-slider">
+                    <div class="item">
+                        <img src="image/interface-overview-01.png" alt="interface-img">
+                    </div>
+                    <div class="item">
+                        <img src="image/interface-overview-02.png" alt="interface-img">
+                    </div>
+                    <div class="item">
+                        <img src="image/interface-overview-03.png" alt="interface-img">
+                    </div>
+                    <div class="item">
+                        <img src="image/interface-overview-02.png" alt="interface-img">
+                    </div>
+                    <div class="item">
+                        <img src="image/interface-overview-01.png" alt="interface-img">
+                    </div>
+                  
+                </div>
+        </div>
+    </div>
+    <!-- interface section end -->
+
+    <!-- trial section start -->
+    <div class="trial-section m-4 m-md-5 reveal-opacity">
+        <div class="row">
+            <div class="trial-inner d-flex p-4 p-md-5">
+
+                <div class="col-md-12 col-lg-6 ps-4">
+                    <h1 class="common-heading pt-3 reveal-top">Start Your 14-Day Free Trial</h1>
+                    <P class="pb-3 common-paragraph reveal-top">Instant free download from apple and play store orem
+                        Ipsum is <br>
+                        simply dummy text of the printing.</P>
+                    <div class="trial-detail d-flex">
+                        <div class="col-sm-6 pe-3 reveal-top">
+                            <p><img src="image/check-mark.png" alt="check-mark"> Free 14-day trial</p>
+                            <p><img src="image/check-mark.png" alt="check-mark"> Support 24/7</p>
+                        </div>
+                        <div class="col-sm-6 reveal-top">
+                            <p><img src="image/check-mark.png" alt="check-mark"> No credit card required</p>
+                            <p><img src="image/check-mark.png" alt="check-mark"> Cancel anytime</p>
+                        </div>
+                    </div>
+                    <div class="trial-sub-detail d-flex pt-2 pt-md-5 pb-3 reveal-top">
+                        <div class="common-button text-center me-2">
+                            <a href="#" class="text-center">GET STARTED <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                        <div class="promo_icon align-items-center ps-0 ps-sm-3 pt-md-0 pt-2 pt-sm-0">
+                            <img src="image/play_icon.png" alt="play_icon" style="width: 40px;"><a href="#"
+                                class="ps-3">WATCH PROMO</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 trial-img">
+
+                    <img src="image/trial-img.png" alt="trial-img">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- trial section end -->
+
+    <!-- faq section start -->
+    <div class="faq-section position-relative reveal-top">
+        <div class="container">
+            <h1 class="common-heading pt-3 text-center">FAQ - Frequently Asked Questions</h1>
+            <P class="pb-3 common-paragraph text-center">Lorem Ipsum is simply dummy text of the printing and typese
+                tting <br>
+                indus orem Ipsum has beenthe standard dummy.
+            </P>
+            <div class="accordion accordion-flush pt-5" id="accordionFlushExample">
+                <div class="accordion-item mb-3 reveal-top">
+                    <h2 class="accordion-header">
+
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <img src="image/question-icon.svg" alt="question-icon" class="pe-3"> How can i pay ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry lorem Ipsum has. been the industrys standard dummy
+                            text ever since the when an unknown printer took a galley of type and scrambled it to make a
+                            type specimen book. It has survived not only five cen turies
+                            but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 reveal-top">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <img src="image/question-icon.svg" alt="question-icon" class="pe-3"> How to setup account ?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry lorem Ipsum has. been the industrys standard dummy
+                            text ever since the when an unknown printer took a galley of type and scrambled it to make a
+                            type specimen book. It has survived not only five cen turies
+                            but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 reveal-top">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <img src="image/question-icon.svg" alt="question-icon" class="pe-3">What is process to get
+                            refund?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry lorem Ipsum has. been the industrys standard dummy
+                            text ever since the when an unknown printer took a galley of type and scrambled it to make a
+                            type specimen book. It has survived not only five cen turies
+                            but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-3 reveal-top">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            <img src="image/question-icon.svg" alt="question-icon" class="pe-3">What is process to get
+                            refund?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry lorem Ipsum has. been the industrys standard dummy
+                            text ever since the when an unknown printer took a galley of type and scrambled it to make a
+                            type specimen book. It has survived not only five cen turies
+                            but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- faq section end -->
+
+    <!-- story section start -->
+    <div class="story-section p-2 p-md-0 reveal-opacity">
+        <h1 class="common-heading pt-3 text-center">Read latest story</h1>
+        <P class="pb-3 text-center common-paragraph">Lorem Ipsum is simply dummy text of the printing and typese tting
+            indus <br>
+            orem Ipsum has beenthe standard dummy text ever since</P>
+        <div class="container">
+            <div class="row d-flex align-items-centers reveal-top">
+                <div class="col-md-4 gap-3 pb-2">
+                    <div class="card position-relative">
+                        <span class="box text-center"><span>23 </span><br> AUG</span>
+                        <img src="image/story-01.png" alt="story-img" style="width: 100%;">
+                        <div class="story-detail p-4">
+                            <div class="story-static d-flex align-items-center">
+                                <i class="fa-solid fa-user-tie pe-2"></i>
+                                <p class="common-paragraph mb-0 pe-4">Admin</p>
+                                <i class="fa-solid fa-comments pe-2"></i>
+                                <p class="common-paragraph mb-0">36 Comments</p>
+                            </div>
+                            <h5 class="pt-2">Powerfull features makes software awesome !</h5>
+                            <p class="common-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry lorem Ipsum has been. </p>
+                            <div class="common-button text-center">
+                                <a href="#" class="text-center">READ MORE <i
+                                        class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 gap-3 pb-2">
+                    <div class="card position-relative">
+                        <span class="box text-center"><span>18 </span><br> AUG</span>
+                        <img src="image/story-02.png" alt="story-img" style="width: 100%;">
+                        <div class="story-detail p-4">
+                            <div class="story-static d-flex align-items-center">
+                                <i class="fa-solid fa-user-tie pe-2"></i>
+                                <p class="common-paragraph mb-0 pe-4">Admin</p>
+                                <i class="fa-solid fa-comments pe-2"></i>
+                                <p class="common-paragraph mb-0">36 Comments</p>
+                            </div>
+                            <h5 class="pt-2">Why software is globally used as best software</h5>
+                            <p class="common-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry lorem Ipsum has been. </p>
+                            <div class="common-button text-center">
+                                <a href="#" class="text-center">READ MORE <i
+                                        class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 gap-3 pb-2">
+                    <div class="card position-relative">
+                        <span class="box text-center"><span>9</span><br> AUG</span>
+                        <img src="image/story-01.png" alt="story-img" style="width: 100%;">
+                        <div class="story-detail p-4">
+                            <div class="story-static d-flex align-items-center">
+                                <i class="fa-solid fa-user-tie pe-2"></i>
+                                <p class="common-paragraph mb-0 pe-4">Admin</p>
+                                <i class="fa-solid fa-comments pe-2"></i>
+                                <p class="common-paragraph mb-0">36 Comments</p>
+                            </div>
+                            <h5 class="pt-2">Beautiful user interface with bug free code.</h5>
+                            <p class="common-paragraph">Printing and typesetting industry lorem Ipsum has Lorem simply
+                                dummy text of the.</p>
+                            <div class="common-button text-center">
+                                <a href="#" class="text-center">READ MORE <i
+                                        class="fa-solid fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- story section end -->
+
+    <!-- footer section start -->
+    <footer>
+        <div class="footer-section">
+            <div class="container p-3">
+                <div class="row footer-row pb-2 pb-md-5">
+                    <div class="col-lg-4 col-md-6 col-12 mb-2 pe-2 pe-md-5">
+                        <div class="footer-detail">
+                            <img class="pb-2 pb-md-5" src="image/codely-logo.png" alt="codely-logo">
+                            <p style="text-align: justify;">Lorem Ipsum is simply dummy text of the
+                                printing and type
+                                setting industry ype settingindustry lorem Ipsum has been the industrys standard dummy.
+                            </p>
+                            <form action="#" class="d-flex">
+                                <input type="email" placeholder="Enter your email">
+                                <button><i class="fa-solid fa-paper-plane"></i></button>
+
+                            </form>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-12">
+                        <h5 class="pb-2 pb-md-5 about-text d-inline-block">Useful Links</h5>
+                        <p><a>Home</a></p>
+                        <p><a>About us</a></p>
+                        <p><a>Services</a></p>
+                        <p><a>Services Detail</a></p>
+                        <p><a>Blog</a></p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <h5 class="pb-2 pb-md-5 d-inline-block">Help & Suport</h5>
+                        <p><a>Contact us</a></p>
+                        <p><a>FAQs</a></p>
+                        <p><a>How it works</a></p>
+                        <p><a>Terms & conditions</a></p>
+                        <p><a>Privacy policy</a></p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <h5 class="pb-2 pb-md-5 d-inline-block">Contact us</h5>
+                        <div class="contact-detail d-flex align-items-center pb-3">
+                            <img src="image/contact_01.png" alt="contact-img">
+                            <div class="contact-sub-info d-inline-block ps-3">
+                                <span>Reach us</span> <br>
+                                <span>599, Vilium Crossing, NJ</span>
+                            </div>
+                        </div>
+                        <div class="contact-detail d-flex align-items-center pb-3">
+                            <img src="image/contact_02.png" alt="contact-img">
+                            <div class="contact-sub-info d-inline-block ps-3">
+                                <span>Call us</span> <br>
+                                <span>+1-900-123 4567</span>
+                            </div>
+                        </div>
+                        <div class="contact-detail d-flex align-items-center pb-0 pb-md-3">
+                            <img src="image/contact_03.png" alt="contact-img">
+                            <div class="contact-sub-info d-inline-block ps-3">
+                                <span>Email us</span> <br>
+                                <span>support@example.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="container footer-contact pt-2 pt-md-5">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-4">
+                        <p>© Copyrights 2023. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="d-flex">
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-pinterest-p"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="m-0">Design & developed by <a href="#"><ins>Kalanidhi Themes</ins></a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- scroll top -->
+    <a class="topscroll" href="#"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+
+    <!-- script link -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript">
+        // Header scroll
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        // customer slick slider
+
+
+        $('.customer-slick-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: true,
+            infinite: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+
+        //companies counter
+
+        $(document).ready(function () {
+            $('.companies-slider').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: true,
+                speed: 300,
+                infinite: true,
+                autoplaySpeed: 5000,
+                autoplay: true,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 4,
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 3,
+                        }
+                    },
+                    {
+                        breakpoint: 567,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    }
+                ]
+            });
+        });
+
+        //interface slider
+        
+        $(document).ready(function () {
+            $('.interface-slick-slider').slick({
+                centerMode: true,
+                variableWidth:true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: false,
+                dots: true,
+                speed: 300,
+                infinite: true,
+                autoplaySpeed: 5000,
+                autoplay: true,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 567,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        });
+      
+        //business counter
+        var counted = 0;
+        $(window).scroll(function () {
+
+            var oTop = $('#counter').offset().top - window.innerHeight;
+            if (counted == 0 && $(window).scrollTop() > oTop) {
+                $('.count').each(function () {
+                    var $this = $(this),
+                        countTo = $this.attr('data-count');
+                    $({
+                        countNum: $this.text()
+                    }).animate({
+                        countNum: countTo
+                    },
+                    {
+
+                        duration: 2000,
+                        easing: 'swing',
+                        step: function () {
+                            $this.text(Math.floor(this.countNum));
+                        },
+                        complete: function () {
+                            $this.text(this.countNum);
+                            //alert('finished');
+                        }
+
+                    });
+                });
+                counted = 1;
+            }
+
+        });
+
+        //animation js code
+
+        window.addEventListener('scroll', reveal);
+
+        function reveal() {
+            var reveals = document.querySelectorAll('.reveal,.reveal-opacity,.reveal-top,.reveal-top-delay');
+
+            for (var i = 0; i < reveals.length; i++) {
+
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if (revealtop < windowheight - revealpoint) {
+                    reveals[i].classList.add('anim-active');
+                }
+                else {
+                    reveals[i].classList.remove('anim-active');
+                }
+
+
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
